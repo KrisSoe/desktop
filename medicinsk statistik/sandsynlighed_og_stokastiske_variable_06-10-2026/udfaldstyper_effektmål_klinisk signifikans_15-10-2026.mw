@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2026" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+<Hide name="Group Range"/>
+</View-Properties>
+<MapleNet-Properties prettyprint="3" compactdisplay="false" preplot="" helpbrowser="standard" echo="1" scientificx="true" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" writeScrollableTableTypesetting="true" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsbefore="100" plotdevice="inline" elisiontermsbefore="100" historytimestamp="false" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" format="document" labelwidth="20" postplot="" typesetting="extended" elisiondigitsthreshold="10000" ansilprint="false" labelling="true" verboseproc="1" latexwidth="8.0" warnlevel="3" displayprecision="-1" elisiondigitsafter="100" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsafter="100" screenwidth="79" ansi="false" ansicolor="[]" showassumed="1" trailingsemicolon="true" errorcursor="false" screenheight="25" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[171,41,204]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" strikethrough="false" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" strikethrough="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="true" strikethrough="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[171,41,204]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="24" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Calibri" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans Mono" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="DejaVu Sans" foreground="[18,93,153]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="true" strikethrough="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="11" subscript="false" superscript="false" underline="false" strikethrough="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="16" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.2" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.2" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.2" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.2" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.2" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.2" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.2" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.2" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.2" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+	<Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal" alignment="centred"><Font size="12" encoding="UTF-8">Udfaldstyper, effektm\303\245l og klinisk signifikans</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal" alignment="centred"><Font size="12">15-10-2026</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L46" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="12" bold="true">Typer af outcomes</Font><Font size="12">: 
+Nominal - kategorisk 
+<Font encoding="UTF-8">Ordinal - Betydningen af den kliniske signifikans afh\303\246nger af, hvor deltagerne ligger p\303\245 skalaen. Det kan have st\303\270rre betydning at flytte sig fra 5 til 6 end at flytte sig fra  0 til 1.  
+Interval - Sp\303\246ndet er uendeligt b\303\245de i positiv og negativ retning 
+Ratio \342\200\223 Positiv skala 0-uendelig 
+Bin\303\246re - kan b\303\245de v\303\246re norminal og ordinal 
+</Font></Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L8" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">I casen bruger vi en mRS, som et ordinalt outcome.<Font size="12">
+<Font bold="true" encoding="UTF-8">Bin\303\246re outcomes </Font><Font encoding="UTF-8">(hvis vi g\303\270r mRS skalaen bin\303\246r):
+RR \342\200\223 relativ risiko, sandsynligheden for at man oplever outcome i den ene gruppe / sandsynligheden for at man oplever outcome givet man er i den anden gruppe </Font></Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L10" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictRiM2JkYrLUkmbWZyYWNHRiQ2KC1GIzYvLUYsNiZRIlBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi9RIihGJ0Y8L0ZAUSdub3JtYWxGJy8lJmZlbmNlR0Y7LyUqc2VwYXJhdG9yR0Y+LyUpc3RyZXRjaHlHRjsvJSpzeW1tZXRyaWNHRj4vJShsYXJnZW9wR0Y+LyUubW92YWJsZWxpbWl0c0dGPi8lJ2FjY2VudEdGPi8lJ2xzcGFjZUdRLDAuMTY2NjY2N2VtRicvJSdyc3BhY2VHRlgvJSllcXVhbGl0eUdGPi1GLDYmUSJPRicvRjpGPkY8RkYtRkM2L1EiPUYnRjxGRi9GSUY+RkovRk1GPkZORlBGUkZUL0ZXUSwwLjI3Nzc3NzhlbUYnL0ZaRmFvRmVuLUkjbW5HRiQ2JVEiMUYnRjxGRi1GQzYvUSJ8Z3JGJ0Y8RkZGXm9GSkZMRk5GUEZSRlQvRldRLDAuMTExMTExMWVtRicvRlpGW3BGZW4tRiw2JlEiRUYnRjlGPEY/RltvRmNvLUZDNi9RIilGJ0Y8RkZGSEZKRkxGTkZQRlJGVEZWRllGZW5GOUY8Rj9GNC8lLmxpbmV0aGlja25lc3NHRmZvLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmdwLyUpYmV2ZWxsZWRHRj5GPEZGLUZDNi9RIn5GJ0Y8RkZGXm9GSkZfb0ZORlBGUkZUL0ZXUSYwLjBlbUYnL0ZaRmBxRmVuRjxGRg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictRiM2JkYrLUkmbWZyYWNHRiQ2KC1GIzYvLUYsNiZRIlBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi9RIihGJ0Y8L0ZAUSdub3JtYWxGJy8lJmZlbmNlR0Y7LyUqc2VwYXJhdG9yR0Y+LyUpc3RyZXRjaHlHRjsvJSpzeW1tZXRyaWNHRj4vJShsYXJnZW9wR0Y+LyUubW92YWJsZWxpbWl0c0dGPi8lJ2FjY2VudEdGPi8lJ2xzcGFjZUdRLDAuMTY2NjY2N2VtRicvJSdyc3BhY2VHRlgvJSllcXVhbGl0eUdGPi1GLDYmUSJPRicvRjpGPkY8RkYtRkM2L1EiPUYnRjxGRi9GSUY+RkovRk1GPkZORlBGUkZUL0ZXUSwwLjI3Nzc3NzhlbUYnL0ZaRmFvRmVuLUkjbW5HRiQ2JVEiMUYnRjxGRi1GQzYvUSJ8Z3JGJ0Y8RkZGXm9GSkZMRk5GUEZSRlQvRldRLDAuMTExMTExMWVtRicvRlpGW3BGZW4tRiw2JlEiRUYnRjlGPEY/RltvRmNvLUZDNi9RIilGJ0Y8RkZGSEZKRkxGTkZQRlJGVEZWRllGZW5GOUY8Rj9GNC8lLmxpbmV0aGlja25lc3NHRmZvLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmdwLyUpYmV2ZWxsZWRHRj5GPEZGLUZDNi9RIn5GJ0Y8RkZGXm9GSkZfb0ZORlBGUkZUL0ZXUSYwLjBlbUYnL0ZaRmBxRmVuRjxGRg==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L16" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Jo t\303\246ttere den relative risiko er p\303\245 1 desto mindre forskel er der p\303\245 de 2 grupper og interventionen vurderes neutral. Hvis det outcome man kigger p\303\245 i sig selv er skadeligt vil en relativ risiko &gt;1 v\303\246re tegn p\303\245 skadelig effekt. Derimod vil en relativ risiko &lt;1 v\303\246re tegn p\303\245 en gavnlig effekt. </Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">RD - risiko difference</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L28" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY5LUkjbWlHRiQ2J1EiUEYnLyUlc2l6ZUdRIzExRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYwUSIoRidGL0Y1L0Y5USdub3JtYWxGJy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y3LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjcvJShsYXJnZW9wR0Y3LyUubW92YWJsZWxpbWl0c0dGNy8lJ2FjY2VudEdGNy8lJ2xzcGFjZUdRLDAuMTY2NjY2N2VtRicvJSdyc3BhY2VHRlEvJSllcXVhbGl0eUdGNy1GLDYnUSJPRidGLy9GM0Y3RjVGPy1GPDYwUSI9RidGL0Y1Rj8vRkJGN0ZDL0ZGRjdGR0ZJRktGTS9GUFEsMC4yNzc3Nzc4ZW1GJy9GU0ZqbkZULUkjbW5HRiQ2JlEiMUYnRi9GNUY/LUY8NjBRInxnckYnRi9GNUY/RmduRkNGRUZHRklGS0ZNL0ZQUSwwLjExMTExMTFlbUYnL0ZTRmRvRlQtRiw2J1EiRUYnRi9GMkY1RjhGWkZcby1GPDYwUSIpRidGL0Y1Rj9GQUZDRkVGR0ZJRktGTUZPRlJGVC1GPDYwUSomdW1pbnVzMDtGJ0YvRjVGP0ZnbkZDRmhuRkdGSUZLRk0vRlBRLDAuMjIyMjIyMmVtRicvRlNGYHBGVEYrRjtGVkZaRlxvRmBvRmZvRlpGXG9GaW9GNUY/">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY5LUkjbWlHRiQ2J1EiUEYnLyUlc2l6ZUdRIzExRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYwUSIoRidGL0Y1L0Y5USdub3JtYWxGJy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y3LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjcvJShsYXJnZW9wR0Y3LyUubW92YWJsZWxpbWl0c0dGNy8lJ2FjY2VudEdGNy8lJ2xzcGFjZUdRLDAuMTY2NjY2N2VtRicvJSdyc3BhY2VHRlEvJSllcXVhbGl0eUdGNy1GLDYnUSJPRidGLy9GM0Y3RjVGPy1GPDYwUSI9RidGL0Y1Rj8vRkJGN0ZDL0ZGRjdGR0ZJRktGTS9GUFEsMC4yNzc3Nzc4ZW1GJy9GU0ZqbkZULUkjbW5HRiQ2JlEiMUYnRi9GNUY/LUY8NjBRInxnckYnRi9GNUY/RmduRkNGRUZHRklGS0ZNL0ZQUSwwLjExMTExMTFlbUYnL0ZTRmRvRlQtRiw2J1EiRUYnRi9GMkY1RjhGWkZcby1GPDYwUSIpRidGL0Y1Rj9GQUZDRkVGR0ZJRktGTUZPRlJGVC1GPDYwUSomdW1pbnVzMDtGJ0YvRjVGP0ZnbkZDRmhuRkdGSUZLRk0vRlBRLDAuMjIyMjIyMmVtRicvRlNGYHBGVEYrRjtGVkZaRlxvRmBvRmZvRlpGXG9GaW9GNUY/</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L20" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="12">Siger meget om den kliniske signifikans.  Ved ikke lige hvorfor</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L21" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">OR - odds ratio</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L22" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictRiM2J0YrLUkmbWZyYWNHRiQ2KC1GIzYsLUkjbW9HRiQ2L1EiKEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSV0cnVlRicvJSpzZXBhcmF0b3JHRjwvJSlzdHJldGNoeUdGQi8lKnN5bW1ldHJpY0dGPC8lKGxhcmdlb3BHRjwvJS5tb3ZhYmxlbGltaXRzR0Y8LyUnYWNjZW50R0Y8LyUnbHNwYWNlR1EsMC4xNjY2NjY3ZW1GJy8lJ3JzcGFjZUdGUS8lKWVxdWFsaXR5R0Y8LUYyNigtRiM2Li1GLDYmUSJQRicvJSdpdGFsaWNHRkJGOi9GPlEnaXRhbGljRidGNi1GLDYmUSJPRicvRmhuRjxGOkY9LUY3Ni9RIj1GJ0Y6Rj0vRkFGPEZDL0ZGRjxGR0ZJRktGTS9GUFEsMC4yNzc3Nzc4ZW1GJy9GU0Zlb0ZULUkjbW5HRiQ2JVEiMUYnRjpGPS1GNzYvUSJ8Z3JGJ0Y6Rj1GYm9GQ0ZFRkdGSUZLRk0vRlBRLDAuMTExMTExMWVtRicvRlNGX3BGVC1GLDYmUSJFRidGZ25GOkZpbkZfb0Znby1GNzYvUSIpRidGOkY9RkBGQ0ZFRkdGSUZLRk1GT0ZSRlRGOkY9LUYjNi5GWkY2RltvRl9vLUZobzYlUSIwRidGOkY9RltwRmFwRl9vRmdvRmRwRjpGPS8lLmxpbmV0aGlja25lc3NHRmpvLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmBxLyUpYmV2ZWxsZWRHRjxGZHAvJSVzaXplR1EjMTFGJ0Znbi8lK2ZvcmVncm91bmRHUSpbMCwxMDAsMF1GJ0Y6LyUscGxhY2Vob2xkZXJHRkIvJTZzZWxlY3Rpb24tcGxhY2Vob2xkZXJHRkJGaW4tRiM2KEY2LUYyNigtRiM2LkZaRjZGW29GX29GZ29GW3BGYXBGX29GaXBGZHBGOkY9LUYjNi5GWkY2RltvRl9vRmlwRltwRmFwRl9vRmlwRmRwRjpGPUZccUZecUZhcUZjcUZkcEZnbkY6RmluRlxxRl5xRmFxRmNxRmVxRjpGPS1GNzYwUSJ+RidGZXFGOkY9RmJvRkNGY29GR0ZJRktGTS9GUFEmMC4wZW1GJy9GU0Zbc0ZURjpGPQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictRiM2J0YrLUkmbWZyYWNHRiQ2KC1GIzYsLUkjbW9HRiQ2L1EiKEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSV0cnVlRicvJSpzZXBhcmF0b3JHRjwvJSlzdHJldGNoeUdGQi8lKnN5bW1ldHJpY0dGPC8lKGxhcmdlb3BHRjwvJS5tb3ZhYmxlbGltaXRzR0Y8LyUnYWNjZW50R0Y8LyUnbHNwYWNlR1EsMC4xNjY2NjY3ZW1GJy8lJ3JzcGFjZUdGUS8lKWVxdWFsaXR5R0Y8LUYyNigtRiM2Li1GLDYmUSJQRicvJSdpdGFsaWNHRkJGOi9GPlEnaXRhbGljRidGNi1GLDYmUSJPRicvRmhuRjxGOkY9LUY3Ni9RIj1GJ0Y6Rj0vRkFGPEZDL0ZGRjxGR0ZJRktGTS9GUFEsMC4yNzc3Nzc4ZW1GJy9GU0Zlb0ZULUkjbW5HRiQ2JVEiMUYnRjpGPS1GNzYvUSJ8Z3JGJ0Y6Rj1GYm9GQ0ZFRkdGSUZLRk0vRlBRLDAuMTExMTExMWVtRicvRlNGX3BGVC1GLDYmUSJFRidGZ25GOkZpbkZfb0Znby1GNzYvUSIpRidGOkY9RkBGQ0ZFRkdGSUZLRk1GT0ZSRlRGOkY9LUYjNi5GWkY2RltvRl9vLUZobzYlUSIwRidGOkY9RltwRmFwRl9vRmdvRmRwRjpGPS8lLmxpbmV0aGlja25lc3NHRmpvLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmBxLyUpYmV2ZWxsZWRHRjxGZHAvJSVzaXplR1EjMTFGJ0Znbi8lK2ZvcmVncm91bmRHUSpbMCwxMDAsMF1GJ0Y6LyUscGxhY2Vob2xkZXJHRkIvJTZzZWxlY3Rpb24tcGxhY2Vob2xkZXJHRkJGaW4tRiM2KEY2LUYyNigtRiM2LkZaRjZGW29GX29GZ29GW3BGYXBGX29GaXBGZHBGOkY9LUYjNi5GWkY2RltvRl9vRmlwRltwRmFwRl9vRmlwRmRwRjpGPUZccUZecUZhcUZjcUZkcEZnbkY6RmluRlxxRl5xRmFxRmNxRmVxRjpGPS1GNzYwUSJ+RidGZXFGOkY9RmJvRkNGY29GR0ZJRktGTS9GUFEmMC4wZW1GJy9GU0Zbc0ZURjpGPQ==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L18" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L36" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Du tog et billede af en tabel, den er \303\245benbart vigtig, men forstod ikke hvorfor.</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L35" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true" encoding="UTF-8">Kontinu\303\246re outcomes </Font>(hvis man bruger hele mRS skalaen i casen):</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L30" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">DM - forskel i middelv\303\246rdi</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L33" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY1LUkjbWlHRiQ2J1EiRUYnLyUlc2l6ZUdRIzExRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYwUSJbRidGL0Y1L0Y5USdub3JtYWxGJy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y3LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjcvJShsYXJnZW9wR0Y3LyUubW92YWJsZWxpbWl0c0dGNy8lJ2FjY2VudEdGNy8lJ2xzcGFjZUdRLDAuMTY2NjY2N2VtRicvJSdyc3BhY2VHRlEvJSllcXVhbGl0eUdGNy1GLDYnUSJPRidGLy9GM0Y3RjVGPy1GPDYwUSJ8Z3JGJ0YvRjVGPy9GQkY3RkNGRUZHRklGS0ZNL0ZQUSwwLjExMTExMTFlbUYnL0ZTRmluRlRGKy1GPDYwUSI9RidGL0Y1Rj9GZ25GQy9GRkY3RkdGSUZLRk0vRlBRLDAuMjc3Nzc3OGVtRicvRlNGYG9GVC1JI21uR0YkNiZRIjFGJ0YvRjVGPy1GPDYwUSJdRidGL0Y1Rj9GQUZDRkVGR0ZJRktGTUZPRmpuRlQtRjw2MFEqJnVtaW51czA7RidGL0Y1Rj9GZ25GQ0Zeb0ZHRklGS0ZNL0ZQUSwwLjIyMjIyMjJlbUYnL0ZTRl1wRlRGK0Y7RlZGWkYrRltvLUZjbzYmUSIwRidGL0Y1Rj9GZm9GNUY/">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY1LUkjbWlHRiQ2J1EiRUYnLyUlc2l6ZUdRIzExRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYwUSJbRidGL0Y1L0Y5USdub3JtYWxGJy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y3LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjcvJShsYXJnZW9wR0Y3LyUubW92YWJsZWxpbWl0c0dGNy8lJ2FjY2VudEdGNy8lJ2xzcGFjZUdRLDAuMTY2NjY2N2VtRicvJSdyc3BhY2VHRlEvJSllcXVhbGl0eUdGNy1GLDYnUSJPRidGLy9GM0Y3RjVGPy1GPDYwUSJ8Z3JGJ0YvRjVGPy9GQkY3RkNGRUZHRklGS0ZNL0ZQUSwwLjExMTExMTFlbUYnL0ZTRmluRlRGKy1GPDYwUSI9RidGL0Y1Rj9GZ25GQy9GRkY3RkdGSUZLRk0vRlBRLDAuMjc3Nzc3OGVtRicvRlNGYG9GVC1JI21uR0YkNiZRIjFGJ0YvRjVGPy1GPDYwUSJdRidGL0Y1Rj9GQUZDRkVGR0ZJRktGTUZPRmpuRlQtRjw2MFEqJnVtaW51czA7RidGL0Y1Rj9GZ25GQ0Zeb0ZHRklGS0ZNL0ZQUSwwLjIyMjIyMjJlbUYnL0ZTRl1wRlRGK0Y7RlZGWkYrRltvLUZjbzYmUSIwRidGL0Y1Rj9GZm9GNUY/</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L34" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="12" encoding="UTF-8">Vigtigt m\303\245l ift. ressourceh\303\245ndtering/omkostninger. Dette skyldes at det har stor betydning for totalomkostninger/total tid brugt ift. procedurer. </Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L31" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">DQ - forskellen i quantiler</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L32" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">RoM - ratio of means, relativ forskel i middelv\303\246rdier </Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">PS - propability of superiority, rangbaseret effektm\303\245l, f.eks. hvis man ser p\303\245 en tilf\303\246ldig person fra den eksponerede gruppe og en tilf\303\246ldig person fra den ueksponerede gruppe, hvad er da sansynlighed for, at personen fra den eksponerede gruppe er dyrere end personen fra den ueksponerede</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L41" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2J1EiUEYnLyUlc2l6ZUdRIzExRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiYtRiM2Jy1JJW1zdWJHRiQ2JS1GLDYnUSJPRidGLy9GM0Y3RjUvRjlRJ25vcm1hbEYnLUYjNiktRiw2J1EiRUYnRi9GMkY1RjgtSSNtb0dGJDYwUSI9RidGL0Y1RkcvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zcby8lKWVxdWFsaXR5R0Y3LUkjbW5HRiQ2JlEiMUYnRi9GNUZHRi9GMkY1RjgvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1GTzYwUSI+RidGL0Y1RkdGUkZURlZGWEZaRmZuRmhuRmpuRl1vRl9vLUZBNiVGQy1GIzYpRktGTi1GYm82JkZnb0YvRjVGR0YvRjJGNUY4RmVvRjVGR0YvRjVGR0Y1Rkc=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2J1EiUEYnLyUlc2l6ZUdRIzExRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiYtRiM2Jy1JJW1zdWJHRiQ2JS1GLDYnUSJPRidGLy9GM0Y3RjUvRjlRJ25vcm1hbEYnLUYjNiktRiw2J1EiRUYnRi9GMkY1RjgtSSNtb0dGJDYwUSI9RidGL0Y1RkcvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zcby8lKWVxdWFsaXR5R0Y3LUkjbW5HRiQ2JlEiMUYnRi9GNUZHRi9GMkY1RjgvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1GTzYwUSI+RidGL0Y1RkdGUkZURlZGWEZaRmZuRmhuRmpuRl1vRl9vLUZBNiVGQy1GIzYpRktGTi1GYm82JkZnb0YvRjVGR0YvRjJGNUY4RmVvRjVGR0YvRjVGR0Y1Rkc=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L40" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Giver et effektm\303\245l mellem 0-1 hvor 0,5 er neutral, t\303\246ttere p\303\245 1 betyder at den eksponerede er dyrere end den ueksponerede og t\303\246ttere p\303\245 0 betyder at den ueksponerede er dyrere end den eksponerede.</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L43" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Hvis de 2 har pr\303\246cis samme outcome? tror jeg</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L44" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JlEiUEYnLyUlc2l6ZUdRIzExRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiYtSSVtc3ViR0YkNiUtRiw2JlEiT0YnRi8vRjNRJmZhbHNlRicvRjZRJ25vcm1hbEYnLUYjNiYtRiw2JlEiRUYnRi9GMkY1LUkjbW9HRiQ2L1EiPUYnRi9GRS8lJmZlbmNlR0ZELyUqc2VwYXJhdG9yR0ZELyUpc3RyZXRjaHlHRkQvJSpzeW1tZXRyaWNHRkQvJShsYXJnZW9wR0ZELyUubW92YWJsZWxpbWl0c0dGRC8lJ2FjY2VudEdGRC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmpuLyUpZXF1YWxpdHlHRkQtSSNtbkdGJDYlUSIxRidGL0ZFRkUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1GTTYvUSI+RidGL0ZFRlBGUkZURlZGWEZaRmZuRmhuRltvRl1vLUY+NiVGQC1GIzYmRklGTC1GYG82JUZlb0YvRkVGRUZjb0ZFRi9GRS1GTTYvUSIrRidGL0ZFRlBGUkZURlZGWEZaRmZuL0ZpblEsMC4yMjIyMjIyZW1GJy9GXG9GY3BGXW8tSSZtZnJhY0dGJDYoRl9vLUYjNiYtRmBvNiVRIjJGJ0YvRkVGL0YyRjUvJS5saW5ldGhpY2tuZXNzR0Ziby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZhcS8lKWJldmVsbGVkR0ZERistRjk2JS1GIzYmRj1GTEZpb0ZFRi9GRUZF">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JlEiUEYnLyUlc2l6ZUdRIzExRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiYtSSVtc3ViR0YkNiUtRiw2JlEiT0YnRi8vRjNRJmZhbHNlRicvRjZRJ25vcm1hbEYnLUYjNiYtRiw2JlEiRUYnRi9GMkY1LUkjbW9HRiQ2L1EiPUYnRi9GRS8lJmZlbmNlR0ZELyUqc2VwYXJhdG9yR0ZELyUpc3RyZXRjaHlHRkQvJSpzeW1tZXRyaWNHRkQvJShsYXJnZW9wR0ZELyUubW92YWJsZWxpbWl0c0dGRC8lJ2FjY2VudEdGRC8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRmpuLyUpZXF1YWxpdHlHRkQtSSNtbkdGJDYlUSIxRidGL0ZFRkUvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJy1GTTYvUSI+RidGL0ZFRlBGUkZURlZGWEZaRmZuRmhuRltvRl1vLUY+NiVGQC1GIzYmRklGTC1GYG82JUZlb0YvRkVGRUZjb0ZFRi9GRS1GTTYvUSIrRidGL0ZFRlBGUkZURlZGWEZaRmZuL0ZpblEsMC4yMjIyMjIyZW1GJy9GXG9GY3BGXW8tSSZtZnJhY0dGJDYoRl9vLUYjNiYtRmBvNiVRIjJGJ0YvRkVGL0YyRjUvJS5saW5ldGhpY2tuZXNzR0Ziby8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZhcS8lKWJldmVsbGVkR0ZERistRjk2JS1GIzYmRj1GTEZpb0ZFRi9GRUZF</Equation><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2MFEifkYnLyUlc2l6ZUdRIzExRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZILyUpZXF1YWxpdHlHRjRGMkY1">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2MFEifkYnLyUlc2l6ZUdRIzExRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdGNC8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZILyUpZXF1YWxpdHlHRjRGMkY1</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L48" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="12">Ting vi skal have taget stilling til:</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L50" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="12" encoding="UTF-8">1) Eksponering - hvilke blodtryksparametere vil vi kigge p\303\245?</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L52" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="12" encoding="UTF-8">2) Outcome - valg om at g\303\270re den bin\303\246r (cut off) eller at bruge den fulde skala
+3) Type af effektm\303\245l - Bin\303\246r: RR, RD eller OR. Fulde skala: DM eller PS.</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L56" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="12" bold="true">Outliers </Font><Font size="12" encoding="UTF-8">- man skal vurdere om h\303\246ndelsen kunne ske igen eller om der er tale om en fejlregistrering. Hvis observationen er retvisende skal de indg\303\245 i analysen, selvom forl\303\270bet er meget anderledes end de resterende observationer. </Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L58" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="12" bold="true">Repdrocuderbarhed </Font><Font size="12">-<Font encoding="UTF-8"> Man skal inden man p\303\245begynder et studie overveje form\303\245l og forventninger for at styrke reducerbarheden og undg\303\245 P-hacking, hvor man bare finder associationer i data hvis man leder l\303\246nge nok. Dette form\303\245es ved at udrede en statistisk analyseplan (SAP). </Font></Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L61" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUpZXF1YWxpdHlHRjQvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEifkYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLyUpZXF1YWxpdHlHRjQvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>
