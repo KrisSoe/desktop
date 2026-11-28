@@ -26,10 +26,11 @@ library(tidyverse)
 library(survival)
 library(ggplot2)
 library(ggsci)
+library(blandr)
 
-############################
-###Cleaning of data_train###
-############################
+###################
+###Data cleaning###
+###################
 
 #Making the sex variable categorical
 
@@ -38,6 +39,14 @@ data_train <- data_train %>%
     #sex: 0 = Female, 1 = Male
     sex_chr=ifelse(sex==1, yes = "Male", no = "Female")
   )
+
+
+data_test <- data_test %>%
+  mutate(
+    #sex: 0 = Female, 1 = Male
+    sex_chr=ifelse(sex==1, yes = "Male", no = "Female")
+  )
+
 
 #################
 ### Table one ###
@@ -200,7 +209,7 @@ Multiple R-squared:  0.5012,	Adjusted R-squared:  0.4987
 F-statistic: 201.9 on 3 and 603 DF,  p-value: < 2.2e-16
 
 #modellen med AL, EC og IC gav en bedre balance mellem modeltilpasning og kompleksitet ifølge AIC.
-#Bemærk, at IC faktisk har en p-værdi på 0,0463 i den nye model.
+#IC har en p-værdi på 0,0463 i den nye model.
 #Det betyder, at IC nu er statistisk signifikant på 5 %-niveauet.
 #Det er interessant, fordi IC ikke var signifikant i den oprindelige model.
 #Det kan skyldes, at sammenhængen mellem IC og EQ-5D ændrer sig, når vi ikke længere justerer for alder og køn.
@@ -255,15 +264,19 @@ results <- data.frame(
 #Beregn modellens prædiktionsevne
 #RMSE
 sqrt(mean((results$Actual - results$Predicted)^2))
-[1] 2.261783
+[1] 2.261783 #rmse test data
 
 #MAE:
 mean(abs(results$Actual - results$Predicted))
-[1] 1.444674
+[1] 1.444674 #mae test data
+
+#MSE
+mean((results$Actual - results$Predicted)^2)
+[1] 5.115664 #MSE test data
 
 #R^2
 cor(results$Actual, results$Predicted)^2
-[1] 0.5025772
+[1] 0.5025772 #R^2 test data
 
 #RMSE: Hvor store modellens fejl er, hvor store fejl vægtes ekstra.
 #MAE: Hvor stor den gennemsnitlige absolutte fejl er.
@@ -311,7 +324,7 @@ summary(results$error)
 -5.32585 -1.09283 -0.13519  0.08352  0.78427 11.85813
 
 
-###Stepwise linear regression for prediction###
+###Stepwise linear regression for prediction### ###Det tror jeg ikke at man skal faktisk
 #data_test
 data <- data_test
 model_2 <- lm(eq5d ~ age + sex + AL + EC + IC,
@@ -339,3 +352,38 @@ Residual standard error: 2.255 on 297 degrees of freedom
 Multiple R-squared:  0.5109,	Adjusted R-squared:  0.5059
 F-statistic: 103.4 on 3 and 297 DF,  p-value: < 2.2e-16
 
+###Bland Altman model
+results$mean <- (results$Actual + results$Predicted)/2
+results$difference <- results$Actual - results$Predicted
+bias <- mean(results$difference)
+sd_diff <- sd(results$difference)
+upper_loa <- bias + 1.96 * sd_diff
+lower_loa <- bias - 1.96 * sd_diff
+
+ggplot(results, aes(x = mean, y = difference)) +
+  geom_point() +
+  geom_hline(yintercept = bias, color = "blue") +
+  geom_hline(yintercept = upper_loa,
+             color = "red", linetype = "dashed") +
+  geom_hline(yintercept = lower_loa,
+             color = "red", linetype = "dashed") +
+  labs(
+    title = "Bland-Altman plot",
+    x = "Mean of actual and predicted EQ-5D",
+    y = "Difference between actual and predicted EQ-5D"
+  ) +
+  theme_minimal()
+
+###Bland Altman plot i andet format
+
+predictions <- predict(step_model_train, newdata = data_test)
+sqrt(mean((data_test$eq5d - predictions)^2))
+[1] 2.261783 #rmse test data, havde du også allerede beregnet tidligere
+
+plot(predictions, data_test$eq5d)
+abline(a = 0, b = 1)
+
+stats <- blandr.statistics(data_test$eq5d, predictions)
+blandr.plot.ggplot(stats)
+
+#low bias, low precision
